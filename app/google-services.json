@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "199799821375",
+    "firebase_url": "https://lab-2022-2-default-rtdb.firebaseio.com",
+    "project_id": "lab-2022-2",
+    "storage_bucket": "lab-2022-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199799821375:android:826313cad102cdc1aa548a",
+        "android_client_info": {
+          "package_name": "com.example.lab2022_2sub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199799821375-akmjtnj58skkd7614c7bpf29miqlr3v4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab2022_2sub",
+            "certificate_hash": "11f7e13f3f2bdead3ae377d4f40824dd74ddf725"
+          }
+        },
+        {
+          "client_id": "199799821375-jca2repmrmgd60barq308brbg8mkdn9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab2022_2sub",
+            "certificate_hash": "ea37d3d188815b0b667fbc50566110ddc238331d"
+          }
+        },
+        {
+          "client_id": "199799821375-gcek93hgtlr2mhcecejnf883kj1emmsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3-XC0po8n4VCeTGFyWHHc85pgdI8gTNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199799821375-gcek93hgtlr2mhcecejnf883kj1emmsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_drawer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="#FFFFFF"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="@color/btn">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatrecycler"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+        android:id="@+id/chat_edittext"
+        android:layout_width="0dp"
+        android:layout_marginStart="12dp"
+        android:hint="Edit Text"
+        android:layout_height="match_parent"
+        tools:ignore="Suspicious0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/chat_sendbtn"
+            android:layout_width="80dp"
+            android:layout_marginRight="12dp"
+            android:layout_height="match_parent"
+            android:text="send"
+            android:backgroundTint="@color/btn"/>
+    </LinearLayout>
+    </LinearLayout>
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigationview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/navi_header"
+    app:menu="@menu/navi_menu">
+</com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
